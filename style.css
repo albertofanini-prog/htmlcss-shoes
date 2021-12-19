@@ -1,0 +1,17 @@
+
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+.modal{
+    position: fixed;
+    padding: 75px;
+    max-width: 750px;
+    background-color: green;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px 50px rgba(0, 0, 0, 0.4)
+}
