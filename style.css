@@ -6,6 +6,16 @@
   box-sizing: border-box;  
 }
 
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: currentColor;
+}
+
 /*
 .name{
     position: fixed;
@@ -40,6 +50,8 @@ li{
     background-color: white;
     border-radius: 50%;
     height: 40px;
+    width: 40px;
+    text-align: center;
 }
 
 a{
@@ -47,8 +59,12 @@ a{
     text-decoration: none;
     font-weight: bolder;
     font-family: 'Secular One', sans-serif;
+    height: 100%;
+    width: 100%;
+
 }
 
+/*Content: image and description*/
 .vhvw-block{
     width: 100%;
     height: 100vh;
@@ -72,6 +88,16 @@ a{
 }
 */
 
+.vhvw-block img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Se img è inline o inline block!!!!
+.content{
+    text-align: center;
+}*/
+
 .vhvw-block h1{
     /*position: absolute;
     top: 50%;
@@ -81,10 +107,7 @@ a{
     color: yellow;
     text-transform: uppercase;
     font-family: 'Secular One', sans-serif;
-}
-
-#h1-converse{
-    color: green;
+    text-align: center;
 }
 
 #vans{
@@ -97,4 +120,8 @@ a{
 
 #converse{
     background-color: yellow;
+}
+
+#h1-converse{
+    color: green;
 }
